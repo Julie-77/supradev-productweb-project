@@ -1,3 +1,18 @@
+@font-face {
+    font-family: fugaz_one;
+    src: url(/assets/fonts/FugazOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: fredoka_light;
+    src: url(/assets/fonts/Fredoka-Light.ttf);
+}
+
+@font-face {
+    font-family: fredoka_semibold;
+    src: url(/assets/fonts/Fredoka-SemiBold.ttf)
+}
+
 * {
     margin: 3px 3px;
     box-sizing: border-box;

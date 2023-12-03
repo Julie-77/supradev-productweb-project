@@ -9,6 +9,7 @@ body {
 }
 
 .container {
+    margin: 5% 10%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 100px 300px 300px 300px 300px 300px 100px;

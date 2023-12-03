@@ -35,13 +35,28 @@ body {
   border: 1px solid black;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 nav {
     grid-column: 1 / 4;
     grid-row: 1 / 2;
+    background-color: #0F1418;
 }
+
+.img_nav {
+    height: 100%;
+}
+
+.menu_nav {
+    font-family: fredoka_light;
+    color: #ffffff;
+}
+
+.panier_img {
+    height: 2em;
+}
+
 
 header {
   grid-column: 1 / 4;

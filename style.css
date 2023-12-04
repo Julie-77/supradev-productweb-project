@@ -27,7 +27,7 @@ body {
     margin: 5% 10%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 100px 300px 300px 300px 300px 300px 100px;
+    grid-template-rows: 100px 600px 300px 300px 300px 300px 100px;
     grid-gap: 10px;
   }
 
@@ -52,7 +52,7 @@ nav {
 .menu_nav {
     flex: 4 1 100px;
     display: flex;
-
+    text-transform: uppercase;
 }
 
 .menu_nav > a {
@@ -71,6 +71,19 @@ nav {
 header {
   grid-column: 1 / 4;
   grid-row: 2 / 3;
+  flex-direction: column;
+}
+
+header h1 {
+    text-align: center;
+    color: #AF989B;
+    font-family: fugaz_one;
+    font-size: 40px;
+    flex: 1 1 600px;
+    margin: auto;
+    background-image: url(assets/img/basket_1.jpg);
+    background-size: cover;
+    text-shadow: 5px 5px 3px #514F5D;
 }
 
 section.description {

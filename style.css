@@ -27,7 +27,7 @@ body {
     margin: 5% 10%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 100px 600px 300px 300px 300px 300px 100px;
+    grid-template-rows: 100px 600px 300px 300px 200px 300px 100px;
     grid-gap: 10px;
   }
 
@@ -122,6 +122,47 @@ aside {
 section.customer-reviews {
     grid-column: 1 / 4;
     grid-row: 5 / 6;
+    flex-direction: column;
+}
+
+section.customer-reviews > .customer-reviews-name{
+    display: flex;
+    flex: 1 1 50px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    font-family: fredoka_semibold;
+    font-size: 20px;
+    color: #514F5D;
+}
+
+section.customer-reviews > .customer-reviews-rate{
+    display: flex;
+    flex: 1 1 50px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+section.customer-reviews > .customer-reviews-comment{
+    display: flex;
+    flex: 5 1 100px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    font-family: fredoka_light;
+    font-size: 20px;
+    color: #514F5D;
+}
+
+section.customer-reviews > * > p {
+    flex: 1 1 400px;
+    padding: 0.3em;
+    height: 100%;
+}
+
+i {
+    color: #cf8325;
 }
 
 section.contact-form {

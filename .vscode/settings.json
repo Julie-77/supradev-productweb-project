@@ -35,5 +35,6 @@
         "tige",
         "édition",
         "était"
-    ]
+    ],
+    "livePreview.defaultPreviewPath": "/index.html"
 }

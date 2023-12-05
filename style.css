@@ -1,16 +1,16 @@
 @font-face {
-    font-family: fugaz_one;
-    src: url(/assets/fonts/FugazOne-Regular.ttf);
+    font-family: "fugaz_one";
+    src: url("./assets/fonts/FugazOne-Regular.ttf");
 }
 
 @font-face {
-    font-family: fredoka_light;
-    src: url(/assets/fonts/Fredoka-Light.ttf);
+    font-family: "fredoka_light";
+    src: url("./assets/fonts/Fredoka-Light.ttf");
 }
 
 @font-face {
-    font-family: fredoka_semibold;
-    src: url(/assets/fonts/Fredoka-SemiBold.ttf)
+    font-family: "fredoka_semibold";
+    src: url("./assets/fonts/Fredoka-SemiBold.ttf")
 }
 
 * {
@@ -24,15 +24,15 @@ body {
 }
 
 .container {
-    margin: 5% 10%;
+    margin: 5% 20%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 100px 600px 300px 300px 200px 300px 100px;
     grid-gap: 10px;
+    min-width: 200px;
   }
 
 .container > * {
-  border: 1px solid black;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -59,7 +59,8 @@ nav {
     flex: 1 1 25px;
     text-align: center;
     color: #ffffff;
-    font-family: fredoka_light;
+    font-family: "fredoka_light";
+    text-decoration: none;
 }
 
 .panier_nav {
@@ -77,11 +78,13 @@ header {
 header h1 {
     text-align: center;
     color: #AF989B;
-    font-family: fugaz_one;
+    font-family: "fugaz_one";
     font-size: 40px;
     flex: 1 1 600px;
     margin: auto;
     background-image: url(assets/img/basket_1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
     text-shadow: 5px 5px 3px #514F5D;
 }
@@ -94,14 +97,14 @@ section.description {
 }
 
 section.description h2 {
-    font-family: fredoka_semibold;
+    font-family: "fredoka_semibold";
     font-size: 30px;
     text-align: center;
     flex: 100px;
 }
 
 section.description p {
-    font-family: fredoka_light;
+    font-family: "fredoka_light";
     font-size: 20px;
     text-align: justify;
     line-height: 20px;
@@ -131,7 +134,7 @@ section.customer-reviews > .customer-reviews-name{
     width: 100%;
     align-items: center;
     text-align: center;
-    font-family: fredoka_semibold;
+    font-family: "fredoka_semibold";
     font-size: 20px;
     color: #514F5D;
 }
@@ -150,7 +153,7 @@ section.customer-reviews > .customer-reviews-comment{
     width: 100%;
     align-items: center;
     text-align: center;
-    font-family: fredoka_light;
+    font-family: "fredoka_light";
     font-size: 20px;
     color: #514F5D;
 }

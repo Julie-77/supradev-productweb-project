@@ -89,6 +89,24 @@ header h1 {
 section.description {
     grid-column: 1 / 4;
     grid-row: 3 / 4;
+    flex-direction: column;
+    color: #514F5D;
+}
+
+section.description h2 {
+    font-family: fredoka_semibold;
+    font-size: 30px;
+    text-align: center;
+    flex: 100px;
+}
+
+section.description p {
+    font-family: fredoka_light;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 20px;
+    flex: 100px;
+
 }
 
 section.product-photo {

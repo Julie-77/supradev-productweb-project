@@ -352,3 +352,9 @@ footer > div {
 footer > div > p {
     margin: 5%;
 }
+
+
+footer > div > img {
+  width: 10%;
+  margin: 5px;
+}

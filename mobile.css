@@ -20,4 +20,23 @@
       justify-content: center;
       margin: 10px;
     }
+
+    .img_footer {
+      height: 100%;
+    }
+
+    footer > div {
+        align-items: center;
+        text-align: center;
+        color: #ffffff;
+        font-family: "fredoka_light";
+        text-transform: uppercase;
+        flex: 2 1 50px;
+    }
+    footer > div > p {
+        margin: 0;
+    }
+    footer > div > img {
+      height: 20px;
+  }
   }
